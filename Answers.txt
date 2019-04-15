@@ -1,0 +1,18 @@
+Exercise 6(a)
+age is a protected member so that it is accessible by the derived class and it's parent class too while the private members are inaccessible by the derived class
+
+Exercise 6(b)
+
+Error	2	error C2248: 'Person::last_name' : cannot access private member declared in class 'Person'
+
+Exercise 6(c)
+
+The private members of the inherited class are inaccessible that's why we got this error
+
+Exercise 8
+
+When protected inherited : The function access from derived class to base class becomes inaccessible because the public members of parent class when inherited as protected, they become inaccesible by the user, but derived class can use it
+
+Exercise 9
+
+When Privately inherited : The function of parent class cannot be accessed from child class as the members are hidden
